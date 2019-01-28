@@ -6,7 +6,7 @@
 ">
   <bean id="pb" class="java.lang.ProcessBuilder">
      <constructor-arg>
-	<value>cat key</value>
+	<value>"cat key"</value>
 		</constructor-arg>
      <property name="whatever" value="#{ pb.start() }"/>
   </bean>

